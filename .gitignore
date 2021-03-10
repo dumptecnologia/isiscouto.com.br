@@ -4,6 +4,7 @@ public/*
 */.jekyll-cache
 .jekyll-metadata
 vendor
+.idea
 
 !*/.gitkeep
 !*/*/.gitkeep
