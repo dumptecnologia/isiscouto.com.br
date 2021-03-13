@@ -1,0 +1,48 @@
+:root {
+  --dt-carissma: #f28495ff;
+  --dt-ligacao-dagua: #c8d2daff;
+  --dt-aluminio: #86888aff;
+  --dt-froly: #ec6377ff;
+}
+
+.container-limit {
+  @extend .col-sm-12;
+  @extend .col-md-8;
+  @extend .m-auto;
+}
+
+body {
+  background-color: var(--dt-ligacao-dagua) !important;
+}
+
+// navbar.html
+a.nav-item.nav-link.px-3:first-of-type {
+  padding-left: 0 !important;
+}
+
+nav.nav-vertical{
+  top: 35%;
+}
+
+nav.nav-vertical > .nav-link:hover > svg.nav-vertical {
+  fill: var(--dt-froly);
+}
+
+nav.nav-vertical > .nav-link {
+  font-size: 0.7em !important;
+  color: transparent;
+  text-transform: uppercase;
+  transition: all 0.2s;
+}
+
+nav.nav-vertical > .nav-link:hover {
+  color: var(--dt-froly);
+}
+
+.overlay-text {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+// ./navbar.html
