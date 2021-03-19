@@ -3,11 +3,22 @@
   --dt-ligacao-dagua: #c8d2da;
   --dt-aluminio: #86888a;
   --dt-froly: #ec6377;
+  --border-home: #f3c3cc;
 }
 
 .container-limit {
-  @extend .col-sm-12;
-  @extend .col-md-8;
+  @extend .col-10;
+  @extend .col-lg-8;
+  @extend .col-xl-7;
+  @extend .m-auto;
+}
+
+.container-limit-slim {
+  @extend .col-12;
+  @extend .col-sm-9;
+  @extend .col-lg-7;
+  @extend .col-xl-6;
+  @extend .col-xxl-5;
   @extend .m-auto;
 }
 
@@ -32,8 +43,16 @@ body {
   background-color: var(--dt-froly);
 }
 
-.ft-italic-v2 {
-  font-family: 'italic-v1';
+.font-1 {
+  font-family: 'font-1';
+}
+
+.font-2 {
+  font-family: 'font-2';
+}
+
+.font-3 {
+  font-family: 'font-3';
 }
 
 // navbar.html
@@ -67,11 +86,11 @@ nav.nav-vertical > .nav-link:hover {
 .overlay-text {
   position: absolute;
   top: 180px;
-  left: 180px;
+  left: 25px;
 }
 
 .overlay-text h1 {
-  font-family: 'italic-v1';
+  font-family: "font-3";
   font-size: 3.8em;
   text-transform: uppercase;
   line-height: 55px;
@@ -83,23 +102,54 @@ nav.nav-vertical > .nav-link:hover {
 }
 
 .overlay-text h2 {
-  font-size: 1em;
+  font-size: 0.95em;
   margin-top: -25px;
+  font-family: "font-1";
+  text-transform: uppercase;
+  letter-spacing: 4px;
 }
 
 // ./navbar.html
 
-// quem-sou.html
-.quem-sou {
-  background-color: #f0f0f0;
+.barra-vertical-card {
+  height: 60px;
+  width: 1px;
+  margin: 0 auto;
+  background-color: var(--border-home);
 }
 
-.quem-sou h2 {
+.card-banner {
+  padding: 100px 0;
+}
+
+.card-banner-border {
+  border: 4px solid var(--border-home);
+  border-radius: 1px;
+}
+
+.card-banner-h2 {
   font-size: 2em;
   color: #1D1D1D;
+  @extend .font-3;
+  @extend .mb-5;
 }
 
-.quem-sou p {
+.card-banner-p {
   line-height: 1.9;
   font-size: 0.96em;
+  font-family: "font-1";
+  letter-spacing: 0.4px;
+}
+
+.btn-custom {
+  color: #ffffff;
+  background-color: var(--dt-carissma);
+  border-color: var(--dt-froly);
+  border-radius: 0;
+  font-family: 'font-1';
+}
+
+.btn-custom:hover, .btn-custom:active {
+  background-color: var(--dt-froly);
+  border-color: var(--dt-carissma);
 }

@@ -1,8 +1,8 @@
 - name: Home
-  link: /
+  link:
 - name: Quem Sou
-  link: /quem-sou/
+  link: quem-sou
 - name: Formação
-  link: /formacao/
+  link: formacao
 - name: Contato
-  link: /contato/
+  link: contato
