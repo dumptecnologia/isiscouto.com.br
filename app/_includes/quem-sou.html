@@ -2,18 +2,11 @@
     <div class="row justify-content-center">
         <div class="text-center col-sm-10 col-lg-9 col-xxl-7">
             <h2 class="card-banner-h2">Quem Sou</h2>
+            {% for item in site.data.quem-sou %}
             <p class="card-banner-p">
-                Isis Couto, psicóloga, mãe, mulher e uma grande admiradora da vida!
-                Tenho 26 anos, nascida em Porto Alegre/RS. Criada por uma mãe guerreira e batalhadora, que
-                me passou valores que carrego comigo até hoje.
-                Tenho uma filha, Luna Sophia, 4 anos, com ela aprendo todos os dias!
-                Como mãe, me construo, desconstruo e reconstruo tentando dar o meu melhor, e no fundo eu sei que
-                sou a melhor Mãe que posso ser!
+                {{item.paragrafo}}<br>
             </p>
-            <p class="card-banner-p">
-                Como profissional, sou pela ética, pela vida e pela valorização do ser humano e seus direitos!
-                Me dedico, estudo e me aprofundo, visando promover a saúde e bem estar do indivíduo.
-            </p>
+            {% endfor %}
         </div>
     </div>
 </div>

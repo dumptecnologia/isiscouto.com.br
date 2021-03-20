@@ -22,6 +22,15 @@
   @extend .m-auto;
 }
 
+.container-limit-slim2 {
+  @extend .col-12;
+  @extend .col-sm-10;
+  @extend .col-lg-8;
+  @extend .col-xl-8;
+  @extend .col-xxl-6;
+  @extend .m-auto;
+}
+
 body {
   font-family: 'Madefor';
   background-color: #f0f0f0;
