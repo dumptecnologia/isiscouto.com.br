@@ -90,8 +90,8 @@ nav.nav-vertical > .nav-link:hover {
 
 .overlay-text {
   position: absolute;
-  top: 45%;
-  left: 21%;
+  top: 35%;
+  left: 30%;
   transform: translate(-50%, -50%);
 }
 
@@ -175,5 +175,24 @@ nav.nav-vertical > .nav-link:hover {
     position: relative;
     top: initial;
     left: initial;
+    transform: none;
+    margin-top: 28px;
+    font-size: 0.8em;
+    text-align: center;
+  }
+
+  .overlay-text h2, .overlay-text .h2 {
+    margin-top: 0;
+  }
+
+  .overlay-text br {
+    display: none;
+  }
+
+}
+
+@media (max-width: 550px) {
+  .row {
+    --bs-gutter-x: 0;
   }
 }
