@@ -3,8 +3,8 @@ email: psi@isiscouto.com.br
 source: .
 collections_dir: .
 destination: ./public
-baseurl: /isiscouto.com.br
-url: https://dumptecnologia.github.io
+baseurl: /
+url: https://www.isiscouto.com.br
 lang: pt-BR
 locale: pt_BR
 author: Isis Couto
