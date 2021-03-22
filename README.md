@@ -1,4 +1,4 @@
-<p align="center"><img src="./app/assets/images/logo/nome_preto.png" width="400"></p>
+<p align="center"><img src="assets/images/logo/nome_preto.png" width="400"></p>
 
 <p align="center">
 <a href="https://jekyllrb.com/"><img src="https://img.shields.io/badge/jekyll-4.2v-success.svg"/></a> 

@@ -1,8 +1,7 @@
 title: Isis Couto - Psicologia Clínica
 email: psi@isiscouto.com.br
-source: "./app"
-collections_dir: "./app"
-includes_dir: "./app/_includes"
+source: "./"
+collections_dir: "./"
 destination: "./public"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -25,4 +24,4 @@ plugins:
   - jekyll-sitemap
 
 sass:
-  sass_dir: app/assets/css
+  sass_dir: assets/css
