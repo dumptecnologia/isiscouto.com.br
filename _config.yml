@@ -3,8 +3,8 @@ email: psi@isiscouto.com.br
 source: "./"
 collections_dir: "./"
 destination: "./public"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/isiscouto.com.br"
+url: "https://dumptecnologia.github.io"
 lang: pt-BR
 locale: pt_BR
 author: Isis Couto
