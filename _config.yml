@@ -4,7 +4,6 @@ source: "./"
 collections_dir: "./"
 destination: "./public"
 baseurl: /isiscouto.com.br
-resource: /isiscouto.com.br
 url: https://dumptecnologia.github.io
 lang: pt-BR
 locale: pt_BR
