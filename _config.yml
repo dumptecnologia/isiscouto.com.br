@@ -3,9 +3,9 @@ email: psi@isiscouto.com.br
 
 source: ./app
 collections_dir: ./app
-layouts_dir: ./_layouts
-plugins_dir: ./_plugins
-includes_dir: ./_includes
+layouts_dir: ./app/_layouts
+plugins_dir: ./app/_plugins
+includes_dir: ./app/_includes
 
 destination: ./public
 baseurl: /
