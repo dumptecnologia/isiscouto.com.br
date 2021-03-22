@@ -3,7 +3,7 @@ email: psi@isiscouto.com.br
 source: .
 collections_dir: .
 destination: ./public
-baseurl: "/"
+baseurl: ""
 url: https://isiscouto.com.br
 lang: pt-BR
 locale: pt_BR
