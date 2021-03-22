@@ -4,9 +4,41 @@
         <div class="text-center col-sm-10 col-lg-9 col-xxl-7">
             <h2 class="card-banner-h2">Contato</h2>
             <p>
-                <a href="mailto:psi@isiscouto.com.br" target="_blank" style="font-family: inherit; color: inherit; text-decoration: none">psi@isiscouto.com.br</a><br>
-                <a href="https://web.whatsapp.com/send?phone=5551985640199&text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+a+psicoterapia.+" target="_blank" style="font-family: inherit; color: inherit; text-decoration: none">Tel: (51) 98564-0199</a><br><br>
+                <a href="mailto:{{ site.title }}<{{ site.data.geral.email }}>?subject={{ site.data.geral.email_assunto }}&body={{ site.data.geral.email_corpo }}%0A%0A%0A"
+                   class="text-decoration-none text-reset mb-3 link-hover">
+                    {{ site.data.geral.email }}
+                </a>
+                <br>
+                <a href="https://web.whatsapp.com/send?phone=55{{ site.data.geral.telefone_so_numeros }}&text={{ site.data.geral.texto_whats | url_encode  }}"
+                   target="_blank" class="text-decoration-none text-reset link-hover">
+                    {{ site.data.geral.telefone }}
+                </a>
+                <br><br>
             </p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-auto text-center">
+                <a href="https://web.whatsapp.com/send?phone=55{{ site.data.geral.telefone_so_numeros }}&text={{ site.data.geral.texto_whats | url_encode  }}"
+                   target="_blank" class="text-decoration-none text-reset link-hover">
+                    <img src="/assets/icon/whatsapp.svg" width="28" height="28" title="Envie uma mensagem via Whatsapp!"
+                         alt="Whatsapp"/>
+                </a>
+            </div>
+            <div class="col-auto text-center">
+                <a href="https://www.instagram.com/{{site.data.geral.instagram}}/" title="Me siga no Instagram!"
+                   target="_blank"
+                   class="text-decoration-none text-reset link-hover">
+                    <img src="/assets/icon/instagram.svg" width="28" height="28" title="Confira meu Instagram!"
+                         alt="Instagram"/>
+                </a>
+            </div>
+            <div class="col-auto text-center">
+                <a href="mailto:{{ site.title }}<{{ site.data.geral.email }}>?subject={{ site.data.geral.email_assunto }}&body={{ site.data.geral.email_corpo }}%0A%0A%0A"
+                   target="_blank"
+                   class="text-decoration-none text-reset link-hover">
+                    <img src="/assets/icon/email.svg" width="30" height="30" title="Contato via email" alt="E-mail"/>
+                </a>
+            </div>
         </div>
     </div>
 </div>

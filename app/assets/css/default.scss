@@ -32,7 +32,7 @@
 }
 
 body {
-  font-family: 'Madefor';
+  font-family: 'font-1';
   background-color: #f0f0f0;
 }
 
@@ -88,14 +88,11 @@ nav.nav-vertical > .nav-link:hover {
   color: var(--dt-froly);
 }
 
-.banner-img {
-  height: 500px;
-}
-
 .overlay-text {
   position: absolute;
-  top: 180px;
-  left: 25px;
+  top: 45%;
+  left: 21%;
+  transform: translate(-50%, -50%);
 }
 
 .overlay-text h1 {
@@ -139,6 +136,7 @@ nav.nav-vertical > .nav-link:hover {
 .card-banner-h2 {
   font-size: 2em;
   color: #1D1D1D;
+  letter-spacing: 1px;
   @extend .font-3;
   @extend .mb-5;
 }
@@ -161,4 +159,21 @@ nav.nav-vertical > .nav-link:hover {
 .btn-custom:hover, .btn-custom:active {
   background-color: var(--dt-froly);
   border-color: var(--dt-carissma);
+  color: #e9e9e9;
+}
+
+.link-hover {
+  opacity: 0.95;
+}
+
+.link-hover:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 992px) {
+  .overlay-text {
+    position: relative;
+    top: initial;
+    left: initial;
+  }
 }
