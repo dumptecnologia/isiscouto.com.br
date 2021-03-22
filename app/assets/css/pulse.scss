@@ -1,21 +1,20 @@
 @keyframes pulse {
   0% {
-    transform: scale(.70) rotate(269deg);
+    transform: scale(.70);
 
   }
   50% {
-    transform: scale(0.75) rotate(269deg);
+    transform: scale(0.75);
   }
   100% {
-    transform: scale(.70) rotate(269deg);
+    transform: scale(.70);
 
   }
 }
 
 .icon-revert {
-  height: 50px;
-  width: 50px;
-  margin-left: 30px;
+  height: 40px;
+  width: 40px;
   opacity: 0.8;
   animation: pulse 1.5s infinite;
 }
