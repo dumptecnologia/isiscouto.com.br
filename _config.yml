@@ -25,4 +25,4 @@ plugins:
   - jekyll-sitemap
 
 sass:
-  sass_dir: assets/css
+  sass_dir: app/assets/css
