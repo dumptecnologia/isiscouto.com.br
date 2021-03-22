@@ -29,7 +29,7 @@ plugins:
   - jekyll-sitemap
 
 sass:
-  sass_dir: app/assets/css
+  sass_dir: ./app/assets/css
 
 exclude:
   - docker
