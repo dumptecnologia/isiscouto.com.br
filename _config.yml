@@ -28,7 +28,8 @@ plugins:
   - jekyll-sitemap
 
 sass:
-  sass_dir: ./assets/css
+  sass_dir: ./app/assets/css
+  style: compressed
 
 exclude:
   - docker
@@ -37,8 +38,8 @@ exclude:
   - Gemfile.lock
   - README.md
   - .gitignore
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - app/node_modules
+  - app/vendor/bundle/
+  - app/vendor/cache/
+  - app/vendor/gems/
+  - app/vendor/ruby/
