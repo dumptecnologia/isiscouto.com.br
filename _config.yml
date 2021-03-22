@@ -24,7 +24,7 @@ plugins:
   - jekyll-sitemap
 
 sass:
-  sass_dir: ./assets/css
+  sass_dir: assets/css
   style: compressed
 
 exclude:
