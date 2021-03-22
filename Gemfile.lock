@@ -77,8 +77,6 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   minima (~> 2.5)
-  tzinfo
-  tzinfo-data
   wdm
 
 BUNDLED WITH

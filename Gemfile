@@ -10,10 +10,5 @@ group :jekyll_plugins do
   gem 'jekyll-autoprefixer'
 end
 
-platforms :mingw, :x64_mingw, :mswin, :jruby do
-  gem "tzinfo"
-  gem "tzinfo-data"
-end
-
 gem "wdm"
 
