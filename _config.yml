@@ -25,3 +25,11 @@ plugins:
 
 sass:
   sass_dir: assets/css
+
+exclude:
+  - docker
+  - .github
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore
