@@ -88,11 +88,19 @@ nav.nav-vertical > .nav-link:hover {
   color: var(--dt-froly);
 }
 
+.banner {
+  height: 550px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .overlay-text {
   position: absolute;
-  top: 35%;
-  left: 30%;
-  transform: translate(-50%, -50%);
+  left: 0;
+  top: 0;
+  padding-top: 230px;
+  padding-left: 22%;
 }
 
 .overlay-text h1 {
@@ -170,13 +178,34 @@ nav.nav-vertical > .nav-link:hover {
   opacity: 0.8;
 }
 
+@media (max-width: 1400px) {
+  .overlay-text {
+    padding-top: 230px;
+    padding-left: 15%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .overlay-text {
+    padding-top: 230px;
+    padding-left: 10%;
+  }
+}
+
 @media (max-width: 992px) {
+
+  .banner {
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
   .overlay-text {
     position: relative;
-    top: initial;
-    left: initial;
-    transform: none;
-    margin-top: 28px;
+    padding: 0;
+    padding-top: 50px;
     font-size: 0.8em;
     text-align: center;
   }
@@ -192,6 +221,11 @@ nav.nav-vertical > .nav-link:hover {
 }
 
 @media (max-width: 550px) {
+
+  .nav-vertical{
+    display: none;
+  }
+
   .row {
     --bs-gutter-x: 0;
   }
