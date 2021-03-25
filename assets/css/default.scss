@@ -31,9 +31,15 @@
   @extend .m-auto;
 }
 
+.row {
+  --bs-gutter-x: 0;
+}
+
 body {
   font-family: 'font-1';
   background-color: #f0f0f0;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .bg-carissma {
@@ -97,10 +103,11 @@ nav.nav-vertical > .nav-link:hover {
 
 .overlay-text {
   position: absolute;
+  width: 450px;
   left: 0;
   top: 0;
-  padding-top: 230px;
-  padding-left: 22%;
+  margin-top: 230px;
+  margin-left: 25%;
 }
 
 .overlay-text h1 {
@@ -180,15 +187,15 @@ nav.nav-vertical > .nav-link:hover {
 
 @media (max-width: 1400px) {
   .overlay-text {
-    padding-top: 230px;
-    padding-left: 15%;
+    margin-top: 230px;
+    margin-left: 15%;
   }
 }
 
 @media (max-width: 1200px) {
   .overlay-text {
-    padding-top: 230px;
-    padding-left: 10%;
+    margin-top: 230px;
+    margin-left: 10%;
   }
 }
 
@@ -204,8 +211,8 @@ nav.nav-vertical > .nav-link:hover {
 
   .overlay-text {
     position: relative;
-    padding: 0;
-    padding-top: 50px;
+    margin: 0;
+    margin-top: 50px;
     font-size: 0.8em;
     text-align: center;
   }
@@ -226,7 +233,4 @@ nav.nav-vertical > .nav-link:hover {
     display: none;
   }
 
-  .row {
-    --bs-gutter-x: 0;
-  }
 }
