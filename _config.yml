@@ -1,7 +1,6 @@
 title: Isis Couto - Psicologia Clínica
 email: psi@isiscouto.com.br
 source: .
-collections_dir: .
 destination: ./public
 baseurl: ""
 url: https://isiscouto.com.br
@@ -9,6 +8,7 @@ lang: pt-BR
 locale: pt_BR
 author: Isis Couto
 google_analytics: "" # UA-111111111-1
+published: true
 social:
   name: Isis Couto
   links:

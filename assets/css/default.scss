@@ -14,7 +14,7 @@
 }
 
 .container-limit-slim {
-  @extend .col-12;
+  @extend .col-11;
   @extend .col-sm-9;
   @extend .col-lg-7;
   @extend .col-xl-6;
@@ -23,7 +23,7 @@
 }
 
 .container-limit-slim2 {
-  @extend .col-12;
+  @extend .col-11;
   @extend .col-sm-10;
   @extend .col-lg-8;
   @extend .col-xl-8;
@@ -183,6 +183,13 @@ nav.nav-vertical > .nav-link:hover {
 
 .link-hover:hover {
   opacity: 0.8;
+}
+
+.blog-post p img{
+  display: block;
+  width: 100%;
+  padding: 50px;
+  margin: 0 auto;
 }
 
 @media (max-width: 1400px) {
