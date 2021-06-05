@@ -1,9 +1,17 @@
 ---
 layout: artigo
 title: Maternidade Real
+categories: Maternidade
+tags: 
+    - maternidade
+    - psicologia
+    - maes
+image: 2020-08-31-maternidade-real.jpg
+introducao: Como uma boa estudante de psicologia, e uma Mãe contemporânea, reflito muito sobre esse papel de Ser Mãe nos dias atuais. Viajo nesse estado de Ser; reflito quem eu quero Ser; quem sou eu até mesmo quem já fui. Me faço, refaço e desfaço tentando dar o meu melhor, as vezes sinto que sou a melhor Mãe do universo, outros momentos penso que podia me esforçar mais, mas lá no fundo Sou a melhor Mãe que posso Ser. Entre erros e acertos, essa sou Eu.
+
 ---
 
-![maternidade-real](/assets/image/posts/2020-08-31-maternidade-real.jpg)
+![{{ page.title }}]({{ site.post_path  }}{{ page.image }})
 
 Como uma boa estudante de psicologia, e uma Mãe contemporânea, reflito muito sobre esse papel de Ser Mãe nos dias atuais.
 Viajo nesse estado de Ser; reflito quem eu quero Ser; quem sou eu até mesmo quem já fui.

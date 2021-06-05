@@ -140,7 +140,7 @@ nav.nav-vertical > .nav-link:hover {
 }
 
 .card-banner {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .card-banner-border {
@@ -161,6 +161,19 @@ nav.nav-vertical > .nav-link:hover {
   font-size: 0.96em;
   font-family: "font-1";
   letter-spacing: 0.4px;
+}
+
+.image-articles {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+}
+
+.video-bg{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .btn-custom {
@@ -185,7 +198,7 @@ nav.nav-vertical > .nav-link:hover {
   opacity: 0.8;
 }
 
-.blog-post p img{
+.blog-post p img {
   display: block;
   width: 100%;
   padding: 50px;
@@ -236,7 +249,7 @@ nav.nav-vertical > .nav-link:hover {
 
 @media (max-width: 550px) {
 
-  .nav-vertical{
+  .nav-vertical {
     display: none;
   }
 

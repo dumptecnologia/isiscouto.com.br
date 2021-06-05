@@ -13,7 +13,9 @@ social:
   name: Isis Couto
   links:
     - https://www.instagram.com/psicologaisiscouto/
-
+post_path: /assets/image/posts/
+icon_path: /assets/icon/
+image_path: /assets/image/
 # Build settings
 markdown: kramdown
 theme: minima

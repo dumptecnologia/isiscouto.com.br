@@ -9,3 +9,11 @@
 
 # *# Isis Couto - Psicologia Clínica*
 <a href="https://isiscouto.com.br">isiscouto.com.br</a>
+
+
+## Backlog
+
+- Artigos:
+    - Fazer botão compartilhar funcional
+    - Botão like funcional
+    - Visualizações funcional

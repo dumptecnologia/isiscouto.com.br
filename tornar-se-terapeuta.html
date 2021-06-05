@@ -1,9 +1,21 @@
 ---
 layout: default
+title: Tornar-se Terapeuta
 ---
-
-<div style="width: 100%; height: 700px">
-    <iframe style="width: 100%; height: 700px"
-            src="https://www.youtube.com/embed/2U4k63da7zE">
-    </iframe>
+<div class="container-limit mt-5 mb-5">
+    <h3 class="font-1">{{ page.title }}</h3>
 </div>
+<div style="background-image: url('{{ site.image_path }}video-bg.jpg')" class="video-bg mb-5">
+    <div class="container-limit py-5">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div style="width: 100%; height: 500px">
+                    <iframe style="width: 100%; height: 500px"
+                            src="https://www.youtube.com/embed/2U4k63da7zE?autoplay=1">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% include contato.html %}
