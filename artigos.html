@@ -8,7 +8,7 @@ title: Artigos
 <div class="container-limit">
     {% for post in site.posts %}
     <div class="row justify-content-center">
-        <div class="col-md-12 col-lg-10">
+        <div class="col-md-12 col-xxl-10">
             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                 <div class="col-md-6 bg-aluminio image-articles"
                      style="background-image: url('{{ site.post_path  }}{{ post.image }}')"
@@ -19,7 +19,7 @@ title: Artigos
                 </div>
                 <div class="card col-md-6">
                     <div class="card-body">
-                        <div class="d-inline-block mb-2 text-black-50">
+                        <div class="d-inline-block mb-3 text-black-50 fs-7">
                             {% assign m = post.date | date: "%-m" %}
                             {{ post.date | date: "%-d" }}
                             {% case m %}
@@ -38,26 +38,28 @@ title: Artigos
                             {% endcase %}
                             {{ post.date | date: "%Y" }}
                         </div>
-                        <h5 class="card-title font-3 fs-3">
-                            <a class="text-dark text-decoration-none" href="{{ post.url }}">{{ post.title }}</a>
-                        </h5>
-                        <p class="card-text font-1 mt-4">
-                            {{ post.introducao | strip_html | strip_newlines | truncate: 325 }}
-                            <br>
-                            <a href="{{ post.url }}" title="{{ post.title }}">Continuar lendo</a></p>
+                        <a class="text-dark text-decoration-none link-hover-froly" href="{{ post.url }}" title="Continuar lendo, {{ post.title }}">
+                            <h5 class="card-title font-3 fs-3">
+                                {{ post.title }}
+                            </h5>
+                            <p class="card-text font-1 mt-4">
+                                {{ post.introducao | strip_html | strip_newlines | truncate: 325 }}
+                                <br>
+                            </p>
+                        </a>
                     </div>
                     <div class="card-footer bg-white text-start px-0 m-auto" style="width: 90%;">
-                        <small class="text-muted font-1 fs-6">
+                        <small class="text-muted font-1 fs-7">
                             {% for tag in post.tags %}
                             #{{ tag }}&nbsp;
                             {% endfor %}
                         </small>
-                        <small class="text-muted text-end float-end">
-                            <img src="{{ site.icon_path }}heart.svg" width="18" height="18" alt="Curtir icone"
-                                 title="Curtir!">&nbsp;&nbsp;
-                            <img src="{{ site.icon_path }}share.svg" width="18" height="18" alt="Compartilhar icone"
-                                 title="Compartilhar!">
-                        </small>
+<!--                        <small class="text-muted text-end float-end">-->
+<!--                            <img src="{{ site.icon_path }}heart.svg" width="18" height="18" alt="Curtir icone"-->
+<!--                                 title="Curtir!">&nbsp;&nbsp;-->
+<!--                            <img src="{{ site.icon_path }}share.svg" width="18" height="18" alt="Compartilhar icone"-->
+<!--                                 title="Compartilhar!">-->
+<!--                        </small>-->
                     </div>
                 </div>
             </div>

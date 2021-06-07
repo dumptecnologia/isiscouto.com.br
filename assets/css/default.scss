@@ -58,6 +58,38 @@ body {
   background-color: var(--dt-froly);
 }
 
+.link-hover-froly:hover {
+  color: var(--dt-froly) !important;
+}
+
+.link-hover-aluminio:hover {
+  color: var(--dt-aluminio) !important;
+}
+
+.link-hover-ligacao-dagua:hover {
+  color: var(--dt-ligacao-dagua) !important;
+}
+
+.link-hover-carissma:hover {
+  color: var(--dt-carissma) !important;
+}
+
+.color-froly {
+  color: var(--dt-froly);
+}
+
+.color-aluminio {
+  color: var(--dt-aluminio);
+}
+
+.color-ligacao-dagua {
+  color: var(--dt-ligacao-dagua);
+}
+
+.color-carissma {
+  color: var(--dt-carissma);
+}
+
 .font-1 {
   font-family: 'font-1';
 }
@@ -170,7 +202,7 @@ nav.nav-vertical > .nav-link:hover {
   height: 350px;
 }
 
-.video-bg{
+.video-bg {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
