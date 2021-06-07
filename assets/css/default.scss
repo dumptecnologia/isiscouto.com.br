@@ -37,7 +37,7 @@
 
 body {
   font-family: 'font-1';
-  background-color: #f0f0f0;
+  background-color: #f8f8f8;
   width: 100%;
   overflow-x: hidden;
 }
@@ -230,10 +230,14 @@ nav.nav-vertical > .nav-link:hover {
   opacity: 0.8;
 }
 
-.blog-post p img {
+.card-body p {
+  white-space: pre-line;
+}
+
+.card-body p img {
   display: block;
   width: 100%;
-  padding: 50px;
+  padding: 25px 50px;
   margin: 0 auto;
 }
 
