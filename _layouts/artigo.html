@@ -43,9 +43,9 @@
                         &nbsp;-&nbsp;
                         {% assign wordCount = content | number_of_words | divided_by: 250 %}
                         {% if wordCount < 1 %}
-                            {{ 'menos de 1 min para ler' }}
+                        {{ 'menos de 1 min para ler' }}
                         {% else %}
-                            {{ wordCount }}&nbsp;min para ler
+                        {{ wordCount }}&nbsp;min para ler
                         {% endif %}
                     </div>
                     <h5 class="card-title font-3 fs-1 mb-3">
@@ -76,5 +76,43 @@
         </div>
     </div>
 </div>
+
+<div class="container-limit">
+    <div class="col-md-12 col-xxl-10 m-auto">
+        <h3 class="font-1 fs-6 d-inline-block w-50 float-start text-start">Artigos recentes</h3>
+        <h3 class="font-1 fs-6 d-inline-block w-50 float-end text-end">
+            <a href="/artigos" title="Ver todos os artigos" class="text-black text-decoration-none link-hover-froly">
+                Ver tudo
+            </a>
+        </h3>
+        <div class="row row-cols-1 row-cols-md-3 g-3" style="--bs-gutter-x: 1rem;">
+            {% for post in site.posts %}
+            <div class="col">
+                <a class="text-dark text-decoration-none link-hover-froly" href="{{ post.url }}"
+                   title="Continuar lendo, {{ post.title }}">
+                    <div class="card">
+                        <div class="w-100 bg-aluminio d-block image-articles"
+                             style="background-image: url('{{ site.post_path  }}{{ post.image }}'); height: 180px; font-size: 0"
+                             data-image="{{ site.post_path  }}{{ post.image }}"
+                             alt="Thumbnail [autox180] - {{ post.title }}"
+                             title="{{ post.title }}">>
+                            &nbsp;
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title font-3">{{ post.title }}</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<div class="container-limit mt-5">
+    <div class="col-md-12 col-xxl-10 m-auto">
+        {% include disqus.html %}
+    </div>
+</div>
+{% include footer.html %}
 </body>
 </html>

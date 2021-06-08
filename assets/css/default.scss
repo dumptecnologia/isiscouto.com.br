@@ -40,6 +40,7 @@ body {
   background-color: #f8f8f8;
   width: 100%;
   overflow-x: hidden;
+  padding-bottom: 20px;
 }
 
 .bg-carissma {
@@ -88,6 +89,10 @@ body {
 
 .color-carissma {
   color: var(--dt-carissma);
+}
+
+.text-black{
+  color: #000;
 }
 
 .font-1 {
@@ -239,6 +244,10 @@ nav.nav-vertical > .nav-link:hover {
   width: 100%;
   padding: 25px 50px;
   margin: 0 auto;
+}
+
+.disqus-footer__wrapper{
+  display: none;
 }
 
 @media (max-width: 1400px) {
