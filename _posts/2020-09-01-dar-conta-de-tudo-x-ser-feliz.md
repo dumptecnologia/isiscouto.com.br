@@ -3,11 +3,9 @@ layout: artigo
 date: 2020-09-01
 permalink: /artigos/:categories/dar-conta-de-tudo-x-ser-feliz
 title: Dar Conta De Tudo X Ser Feliz
-categories: Maternidade
+categories: psicologia
 tags:
-- maternidade
 - psicologia
-- maes
 image: dar-conta-de-tudo-x-ser-feliz.jpg
 introduction: Algumas pessoas que convivem(pouco) comigo me perguntam como eu faço para "dar conta de tudo". Então vou contar um segredinho para vocês, mas, antes disso vou falar um pouquinho dos meus afazeres.
 ---
