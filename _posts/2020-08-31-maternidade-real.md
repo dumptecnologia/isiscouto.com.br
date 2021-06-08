@@ -8,7 +8,7 @@ tags:
     - maternidade
     - psicologia
     - maes
-image: 2020-08-31-maternidade-real.jpg
+image: maternidade-real.jpg
 introduction: Como uma boa estudante de psicologia, e uma Mãe contemporânea, reflito muito sobre esse papel de Ser Mãe nos dias atuais. 
 ---
 

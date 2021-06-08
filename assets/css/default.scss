@@ -91,7 +91,7 @@ body {
   color: var(--dt-carissma);
 }
 
-.text-black{
+.text-black {
   color: #000;
 }
 
@@ -246,7 +246,7 @@ nav.nav-vertical > .nav-link:hover {
   margin: 0 auto;
 }
 
-.disqus-footer__wrapper{
+.disqus-footer__wrapper {
   display: none;
 }
 
@@ -262,6 +262,7 @@ nav.nav-vertical > .nav-link:hover {
     margin-top: 230px;
     margin-left: 10%;
   }
+
 }
 
 @media (max-width: 992px) {
@@ -290,12 +291,20 @@ nav.nav-vertical > .nav-link:hover {
     display: none;
   }
 
+  .card-body p img {
+    padding: 20px;
+  }
+
 }
 
 @media (max-width: 550px) {
 
   .nav-vertical {
     display: none;
+  }
+
+  .card-body p img {
+    padding: 0;
   }
 
 }
