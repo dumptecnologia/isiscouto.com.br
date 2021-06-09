@@ -2,7 +2,7 @@
 layout: artigo
 date: 2021-03-19
 permalink: /artigos/:categories/ja-ouviu-falar-isso-e-coisa-do-destino
-title: Já ouviu falar "isso é coisa do destino" ? 🤔
+title: Já ouviu falar "isso é coisa do destino" ?
 categories: psicologia
 tags:
     - psicologia
