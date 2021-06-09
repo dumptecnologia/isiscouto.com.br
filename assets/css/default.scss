@@ -31,6 +31,14 @@
   @extend .m-auto;
 }
 
+.container-limit2 {
+  @extend .col-11;
+  @extend .col-lg-8;
+  @extend .col-xl-7;
+  @extend .m-auto;
+}
+
+
 .row {
   --bs-gutter-x: 0;
 }
