@@ -15,5 +15,5 @@
 
 - Artigos:
     - Fazer botão compartilhar funcional
-    - Botão like funcional
+    - Botão like funcional 
     - Visualizações funcional
