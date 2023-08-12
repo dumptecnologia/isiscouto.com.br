@@ -9,6 +9,9 @@
     <link rel="icon" href="{{ site.baseurl }}/favicon.ico">
     <!--[if IE]>
     <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico"><![endif]-->
+    <script>
+        window.location.protocol === 'http:' && (window.location.href = 'https:' + window.location.href.slice(5));
+    </script>
 </head>
 <body>
 <h1 style="display: none">Isis Couto</h1>
